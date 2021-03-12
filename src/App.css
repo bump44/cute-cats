@@ -1,0 +1,24 @@
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 0;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.row.reverse {
+  flex-direction: row-reverse;
+}
+
+.image {
+  width: 240px;
+}
